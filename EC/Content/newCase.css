@@ -235,6 +235,9 @@ html, body{
 	margin-bottom: 30px !important;
 }
 
+.p-0{
+	padding: 0!important;
+}
 .p-tb-5{
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -250,6 +253,9 @@ html, body{
 .p-tb-30{
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+.m-0{
+	margin: 0 !important;
 }
 .m-r-30{
 	margin-right: 30px;
@@ -3431,9 +3437,7 @@ body .menuUl .checked{
 	margin-right: 10px;
 	line-height: 46px;
 }
-/*body .menuUl .checked>img{
-	width: 12px;
-}*/
+
 body .liItem.selected .logo{
 	vertical-align: middle;
 }
@@ -3454,13 +3458,68 @@ body .menuUl .positionText{
 	left: -160px !important;
 }
 
+.blockAnalitics .menuItem:hover .menuUl {
+	width: 100%;
+}
+.blockAnalitics .menuItem .menuUl {
+	max-height: 380px;
+	overflow-y: scroll;
+}
+
+.dropDownMenuRow .menuItem:hover{
+	background-color: #fff;
+}
+.dropDownMenuRow .menuItem:hover>.positionText>img{
+	-ms-transform: rotate(180deg); /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Safari 3-8 */
+	transform: rotate(180deg);
+}
+
+.blockAnalitics .blockTodayContant{
+	margin: 0 auto;
+}
+body .blockTodayContant .itemLegend .headerLegend span{
+	line-height: normal;
+}
 
 
+.dropDownMenuRow .menuItem:hover{
+	font-family: 'OpenSans-Regular', arial, verdana, sans-serif;
+}
+/*-----------------RootCauseAnalysis----------------*/
 
-
+.RootCauseAnalysis-roudChart{}
+.RootCauseAnalysis-roudChart__title{
+	padding-left: 10px;
+	
+}
+.RootCauseAnalysis-roudChart__count{
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: right;
+}
+body .positionText .dropMenuText,
+.dropDownMenuRow .menuItem:hover .dropMenuText{
+	font-weight: normal;
+	font-size: 16px;
+	font-family: 'OpenSans-Regular', arial, verdana, sans-serif;
+}
+.filterUp{
+	font-family: 'OpenSans-Regular', arial, verdana, sans-serif;
+}
+.blockToday .blockTodayContant .itemLegend{
+	width: 16.6%;
+}
+g.dxc-arg-elements text{
+	color: #aeb5b7 !important;
+	font-family: 'OpenSans-Semibold', arial, verdana, sans-serif !important;
+}
+.specialBorder{
+	display: none;
+}
 /*-----------------blockAllCases----------------*/
 body .blockAllCases .itemLegend span{
-	font-family: 'OpenSans-Semibold', arial, verdana, sans-serif;
+	font-family: 'OpenSans-Regular', arial, verdana, sans-serif;
 	font-size: 12px;
 	color: #3c3e3f;
 	line-height: 16px;
@@ -3495,6 +3554,7 @@ body .blockToday{
 		display: block;
 	}
 	body .titleBlock{
+		margin-bottom: 30px;
 		font-family: 'OpenSans-Semibold', arial, verdana, sans-serif;
 		font-size: 16px;
 		color: #3c3e3f;
@@ -3923,11 +3983,6 @@ body .someDropdowns{
 		width: calc(100% - 63mm);
 	}
 
-	/* -------------- list upd (Analytics>Cases)  --------------- */
-
-.blockAnalitics .menuItem:hover .menuUl {
-  width: 100%;
-}
 
 /* ------------- bigBlock ------------ */
 body .bigBlock  .blockLinesItem p{
