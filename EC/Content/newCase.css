@@ -3491,7 +3491,6 @@ body .blockTodayContant .itemLegend .headerLegend span{
 .RootCauseAnalysis-roudChart{}
 .RootCauseAnalysis-roudChart__title{
 	padding-left: 10px;
-	
 }
 .RootCauseAnalysis-roudChart__count{
 	font-size: 14pt;
@@ -3505,7 +3504,7 @@ body .positionText .dropMenuText,
 	font-family: 'OpenSans-Regular', arial, verdana, sans-serif;
 }
 .filterUp{
-	font-family: 'OpenSans-Regular', arial, verdana, sans-serif;
+	font-family: 'OpenSans-Regular', arial, verdana, sans-serif !important;
 }
 .blockToday .blockTodayContant .itemLegend{
 	width: 16.6%;
@@ -3516,6 +3515,14 @@ g.dxc-arg-elements text{
 }
 .specialBorder{
 	display: none;
+}
+td.notClear{
+	padding-right: 20px !important;
+	text-align: right !important;
+}
+g.dxc-legend text{
+	font-family: 'OpenSans-Regular', arial, verdana, sans-serif !important;
+	color: #3c3e3f !important;
 }
 /*-----------------blockAllCases----------------*/
 body .blockAllCases .itemLegend span{
